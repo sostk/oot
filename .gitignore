@@ -12,6 +12,7 @@ cmake-build-debug
 venv/
 
 # Project-specific ignores
+__pycache__/*
 build/
 expected/
 notes/
@@ -25,6 +26,8 @@ docs/doxygen/
 *.map
 *.dump
 out.txt
+sm64_save_file.bin
+sm64config.txt
 
 # Tool artifacts
 tools/mipspro7.2_compiler/
